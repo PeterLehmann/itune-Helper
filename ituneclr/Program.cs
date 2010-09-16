@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using iTunesLib;
 
 namespace ituneclr
@@ -23,13 +22,6 @@ namespace ituneclr
                 File.Delete(fileName);
             }
             ReadTracks(fileName);
-            //var tracks1 = File.ReadAllLines("tracks.txt");
-            //var tracks2 = File.ReadAllLines("h:\\tracks.txt");
-            //var res = tracks1.Except(tracks2, StringComparer.InvariantCultureIgnoreCase);
-            //foreach (var track in res)
-            //{
-            //    Console.WriteLine(track);
-            //}
             Console.WriteLine("done");
             Console.ReadLine();
         }
