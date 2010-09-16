@@ -22,6 +22,7 @@ namespace ituneclr
                 File.Delete(fileName);
             }
             ReadTracks(fileName);
+
             Console.WriteLine("done");
             Console.ReadLine();
         }

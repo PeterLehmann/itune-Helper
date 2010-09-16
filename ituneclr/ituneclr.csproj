@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Interop.iTunesLib">
-      <HintPath>..\Itune.Manager\obj\x86\Debug\Interop.iTunesLib.dll</HintPath>
+      <HintPath>..\Interop.iTunesLib.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
